@@ -60,3 +60,15 @@
       );
     });
   });
+
+  // Open the correct tab when visiting a URL with a hash
+  function activateFromHash() {
+    const name = window.location.hash.slice(1) || "about";
+    activateTab(name);
+  }
+
+  // Respond when the URL hash changes
+  window.addEventListener("hashchange", activateFromHash);
+
+  // Open the correct tab when the page first loads
+  activateFromHash();

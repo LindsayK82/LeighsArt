@@ -906,3 +906,130 @@ button { font: inherit; }
     columns: 1;
   }
 }
+
+/* CURRICULUM VITAE */
+
+.cv-content {
+  width: 100%;
+  max-width: 900px;
+  margin: 0 auto;
+  line-height: 1.8;
+}
+
+.cv-section {
+  margin: 0 0 3rem;
+}
+
+.cv-section h2 {
+  margin: 0 0 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 1px solid #ccc;
+  font-size: 1.4rem;
+}
+
+.cv-entry {
+  margin: 0 0 0.85rem;
+}
+
+.cv-list {
+  list-style: none;
+  padding: 0;
+  margin: 0;
+}
+
+.cv-list li {
+  margin-bottom: 1rem;
+  padding-left: 1.2rem;
+  position: relative;
+}
+
+.cv-list li::before {
+  content: "•";
+  position: absolute;
+  left: 0;
+}
+
+.cv-content a {
+  color: inherit;
+  text-decoration: underline;
+  text-underline-offset: 3px;
+}
+
+.cv-content a:hover {
+  opacity: 0.65;
+}
+
+@media (max-width: 600px) {
+  .cv-section {
+    margin-bottom: 2rem;
+  }
+
+  .cv-section h2 {
+    font-size: 1.2rem;
+  }
+}
+
+/* CV LAYOUT FIX */
+
+#panel-cv {
+  width: 100%;
+  max-width: 1100px;
+  margin: 0 auto;
+}
+
+#cv-content {
+  width: 100%;
+  max-width: none;
+}
+
+/* Give every CV section the full available width */
+#panel-cv .cv-section {
+  width: 100%;
+  margin-bottom: 3rem;
+}
+
+/* Display the year and description side by side */
+#panel-cv .cv-entry {
+  display: grid;
+  grid-template-columns: 100px minmax(0, 1fr);
+  gap: 1.5rem;
+  align-items: start;
+  width: 100%;
+  margin-bottom: 1rem;
+}
+
+/* Keep dates from breaking into tiny lines */
+#panel-cv .cv-year {
+  width: auto;
+  white-space: nowrap;
+}
+
+/* Allow descriptions to use all remaining space */
+#panel-cv .cv-entry p {
+  width: 100%;
+  max-width: none;
+  margin: 0;
+}
+
+/* Make the identity section full width */
+#panel-cv .cv-identity {
+  width: 100%;
+  max-width: none;
+  margin-bottom: 3rem;
+}
+
+#panel-cv .cv-identity p {
+  max-width: none;
+}
+
+/* Mobile layout */
+@media (max-width: 600px) {
+  #panel-cv .cv-entry {
+    grid-template-columns: 1fr;
+    gap: 0.25rem;
+  }
+
+  #panel-cv .cv-year {
+    white-space: normal;
+  }
+}
