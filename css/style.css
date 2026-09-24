@@ -858,3 +858,51 @@ button { font: inherit; }
     padding-left: 1.25rem;
   }
 }
+
+/* =========================================
+   INSTALLATIONS PAGE
+   ========================================= */
+
+.installations-main {
+  width: min(100%, 1600px);
+  margin: 0 auto;
+  padding: 2rem 4% 7rem;
+}
+
+.installations-heading {
+  margin: 0 0 5rem;
+  font-family: Georgia, "Times New Roman", serif;
+  font-size: clamp(4rem, 7vw, 7rem);
+  font-weight: 400;
+  line-height: 1.1;
+}
+
+.installations-gallery {
+  columns: 2;
+  column-gap: 2rem;
+}
+
+.installations-gallery figure {
+  margin: 0 0 2rem;
+  break-inside: avoid;
+}
+
+.installations-gallery img {
+  display: block;
+  width: 100%;
+  height: auto;
+}
+
+@media (max-width: 700px) {
+  .installations-main {
+    padding: 2rem 5% 4rem;
+  }
+
+  .installations-heading {
+    margin-bottom: 3rem;
+  }
+
+  .installations-gallery {
+    columns: 1;
+  }
+}
