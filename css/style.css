@@ -1033,3 +1033,12 @@ button { font: inherit; }
     white-space: normal;
   }
 }
+
+/* Markdown CV entries use the full available width */
+#panel-cv p.cv-entry {
+  display: block;
+  width: 100%;
+  max-width: none;
+  margin-bottom: 1rem;
+  line-height: 1.8;
+}

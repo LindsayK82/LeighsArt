@@ -20,7 +20,7 @@ Lives and works in Philadelphia, Pennsylvania, USA
 
 2023 – [Buinho Creative Hub](https://buinho.pt/), Messejana Portugal
 
-###Awards & Recognition
+### Awards & Recognition
 
 The Woman Artist Award, 6th Edition, [Arts to Hearts](https://artstoheartsproject.com/), April 2026
 
@@ -132,7 +132,9 @@ March Exhibit, [The Holy Art Gallery](https://www.theholyart.com/), London UK, M
 
 [PLATFORM](https://omart.org/news/orlando-museum-of-art-introduces-platform/), Orlando Museum of Modern Art, Orlando FL, October 2023
 
-Annual Fall Show 2022, [Lake Grandbury Art Association](https://granburyart.org/), Granbury TX, September - Octoner 2022
+Annual Fall Show 2022, [Lake Grandbury Art Association](https://granburyart.org/), Granbury TX, September - October 2022
+
+### Virtual Exhibitions
 
 [Women in Art](https://palmgallery.art/exhibitions/), Palm Art Gallery, March 2025
 
