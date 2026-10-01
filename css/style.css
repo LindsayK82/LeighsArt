@@ -1042,3 +1042,143 @@ button { font: inherit; }
   margin-bottom: 1rem;
   line-height: 1.8;
 }
+/* ==================================================
+   COMMISSIONS PAGE
+   ================================================== */
+
+.commissions-page {
+    background: #0d0d0d;
+    color: #f5f5f5;
+    min-height: 100vh;
+    padding-bottom: 6rem;
+}
+
+
+/* ---------- INTRO ---------- */
+
+.commissions-intro {
+    width: min(1200px, 88%);
+    margin: 0 auto;
+    padding: 5rem 0 4rem;
+}
+
+.commissions-intro h1 {
+    font-family: Georgia, "Times New Roman", serif;
+    font-size: clamp(3.5rem, 6vw, 6rem);
+    font-weight: 400;
+    line-height: 1;
+    margin: 0 0 5rem;
+}
+
+.commissions-intro > p {
+    max-width: 1050px;
+    font-size: clamp(1.25rem, 2vw, 1.8rem);
+    line-height: 1.45;
+    font-style: italic;
+    margin: 0 0 7rem;
+}
+
+.commissions-intro h2 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0;
+}
+
+
+/* ---------- INDIVIDUAL COMMISSIONS ---------- */
+
+.commission-piece {
+    width: min(1200px, 88%);
+    margin: 0 auto 5rem;
+}
+
+.commission-image {
+    display: block;
+    width: 100%;
+    height: auto;
+    object-fit: contain;
+    margin-bottom: 2.5rem;
+}
+
+.commission-piece h3 {
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1rem;
+    font-weight: 400;
+    text-transform: uppercase;
+    letter-spacing: 0.1em;
+    margin: 0 0 2rem;
+}
+
+
+/* ---------- REVIEWS ---------- */
+
+.commission-review {
+    border-left: 2px solid #1b1b1b;
+    padding-left: 2.5rem;
+    margin-top: 1.5rem;
+}
+
+.commission-review blockquote {
+    margin: 0;
+    max-width: 1050px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1.2rem, 1.8vw, 1.65rem);
+    font-style: italic;
+    line-height: 1.55;
+}
+
+.commission-credit {
+    margin: 2.5rem 0 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 1.15rem;
+    font-style: normal;
+}
+
+
+/* ---------- DESCRIPTIONS ---------- */
+
+.commission-description p {
+    margin: 0;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: clamp(1.2rem, 1.8vw, 1.6rem);
+    line-height: 1.5;
+}
+
+
+/* ---------- MOBILE ---------- */
+
+@media (max-width: 768px) {
+
+    .commissions-intro {
+        width: 90%;
+        padding-top: 3rem;
+    }
+
+    .commissions-intro h1 {
+        font-size: 3.25rem;
+        margin-bottom: 3rem;
+    }
+
+    .commissions-intro > p {
+        font-size: 1.2rem;
+        margin-bottom: 4rem;
+    }
+
+    .commission-piece {
+        width: 90%;
+        margin-bottom: 4rem;
+    }
+
+    .commission-review {
+        padding-left: 1.25rem;
+    }
+
+    .commission-review blockquote,
+    .commission-description p {
+        font-size: 1.1rem;
+    }
+
+}
